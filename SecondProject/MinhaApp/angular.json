@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "FirstProject": {
+    "MinhaApp": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/FirstProject",
+            "outputPath": "dist/MinhaApp",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -62,18 +62,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "FirstProject:build"
+            "browserTarget": "MinhaApp:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "FirstProject:build:production"
+              "browserTarget": "MinhaApp:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "FirstProject:build"
+            "browserTarget": "MinhaApp:build"
           }
         },
         "test": {
@@ -110,19 +110,19 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "FirstProject:serve"
+            "devServerTarget": "MinhaApp:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "FirstProject:serve:production"
+              "devServerTarget": "MinhaApp:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "FirstProject",
+  "defaultProject": "MinhaApp",
   "cli": {
-    "analytics": "392e01c7-5983-4be4-94a4-ec45fe58f294"
+    "analytics": "6bd3b8e5-f89d-4409-bfc9-5cf14e0957e5"
   }
 }
