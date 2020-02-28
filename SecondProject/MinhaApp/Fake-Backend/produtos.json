@@ -1,0 +1,32 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "mouse",
+      "valor": 15.9,
+      "promocao": false,
+      "valorPromo": 0,
+      "imagem": "mouse.jpg"
+    },
+    {
+      "id": 2,
+      "nome": "Teclado",
+      "valor": 25.0,
+      "promocao": true,
+      "valorPromo": 10,
+      "imagem": "teclado.jpg"
+    },
+    {
+      "id": 3,
+      "nome": "Monitor Samsung",
+      "valor": 250.0,
+      "promocao": false,
+      "valorPromo": 0,
+      "imagem": "monitor.jpg"
+    }
+  ],
+  "posts": [{
+    "id":1,
+    "teste":"teste"
+  }]
+}
