@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './Navbar/navbar/navbar.component';
 import { HomeComponent } from './Home/home/home.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { FlexboxComponent } from './flexbox/flexbox.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    HomeComponent
+    HomeComponent,
+    FlexboxComponent
   ],
   imports: [
     BrowserModule,
