@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  align-items: center;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+.box {
+  width: 150px;
+  height: 60px;
+
+  /*flex-grow: 1;   aceita ser aumentado para caber em todo espaço da tela */
+  /*flex-shrink: 1;   diminui para caber em todo espaço da tela default: 1 se trocar para 0 ele nao aceita mais ser diminuido*/
+
+  margin: 5px 5px;
+
+  background-color: red;
+}
+
+.red {
+  order: 3;
+}
+
+.green {
+  background-color: green;
+  order: 2;
+}
+
+.blue {
+  background-color: blue;
+  order: 1 ;
+}
