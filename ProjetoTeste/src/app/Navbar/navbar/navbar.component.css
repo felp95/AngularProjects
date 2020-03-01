@@ -58,6 +58,12 @@
   margin: 0 1.5rem;
 }
 
+
+.nav-link #icone {
+  width: 2rem;
+  margin: 0 2rem;
+}
+
 /* classes css do fontawesome */
 .fa-primary {
   color: #ff7eee;
