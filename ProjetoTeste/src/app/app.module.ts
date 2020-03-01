@@ -7,13 +7,17 @@ import { NavbarComponent } from './Navbar/navbar/navbar.component';
 import { HomeComponent } from './Home/home/home.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FlexboxComponent } from './flexbox/flexbox.component';
+import { TwitterComponent } from './twitter/twitter.component';
+import { NavbartwitterComponent } from './twitter/navbartwitter/navbartwitter.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HomeComponent,
-    FlexboxComponent
+    FlexboxComponent,
+    TwitterComponent,
+    NavbartwitterComponent
   ],
   imports: [
     BrowserModule,
