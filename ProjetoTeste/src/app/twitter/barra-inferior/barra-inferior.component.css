@@ -8,7 +8,7 @@ div.barra #lista {
   height: 100%;
 
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 
   max-width: 1170px;
@@ -20,11 +20,54 @@ div.barra #lista {
 div.barra #lista ul{
   display: flex;
 
+  margin-left: 285px;
+
+  height: 100%;
+
   list-style: none;
 }
 
 div.barra #lista ul li {
   margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
+  margin: 0 15px;
+
+  position: relative;
+}
+
+.active::after{
+  content: "";
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #3bb9e3;
+}
+
+div.barra #lista ul li span {
+  color: #667580;
+
+  font-size: 12px;
+  font-weight: bold;
+}
+
+div.barra #lista ul li strong {
+  color: #667580;
+
+  font-size: 18px;
+  font-weight: bold;
+
+  margin-top: 2px;
+
+}
+
+div.barra #lista ul li.active strong {
+  color: #3bb9e3;
 }
 
 div.side button {
@@ -40,4 +83,9 @@ div.side button {
   font-weight: bold;
 
   outline: none;
+}
+
+div.side button:hover{
+  background-color: #3bb9e3;
+  color: white;
 }

@@ -1,0 +1,121 @@
+.content {
+  max-width: 1170px;
+  margin: 0 auto;
+
+  padding: 0 30px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 100%;
+}
+
+.wrapper-content {
+  display: flex;
+}
+
+.profile {
+  width: 260px;
+}
+
+.avatar {
+  margin-top: -130px;
+
+  width: 200px;
+  height: 200px;
+
+  border-radius: 50%;
+  border: 3px solid white;
+
+  background-color: rgb(55, 191, 236);
+}
+
+.nome {
+  font-size: 21px;
+
+  color: #1f2226;
+
+  margin-top: 10px;
+}
+
+.username {
+  font-size: 14px;
+  color: #53626c;
+}
+
+.description {
+  font-size: 14px;
+
+  color: #1f2226;
+
+  margin-top: 15px;
+}
+
+.lista {
+  margin-top: 20px;
+
+  list-style: none;
+}
+
+.lista li {
+  font-size: 14px;
+
+  color: #657786;
+}
+
+.widget {
+  margin-top: 20px;
+}
+
+.widget strong {
+  font-weight: normal;
+  font-size: 14px;
+
+  color: #3bb9e3;
+}
+
+.widget.followers ul {
+  list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-top: 8px;
+}
+
+.widget.images ul {
+  list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.widget.followers ul li {
+  width: 45px;
+  height: 45px;
+
+  flex-grow: 1;
+
+  margin-right: 5px;
+  margin-top: 4px;
+
+  background: rgb(189, 189, 189);
+
+  border-radius: 50%;
+}
+
+.widget.images ul li {
+  width: 70px;
+  height: 70px;
+
+  flex-grow: 1;
+
+  background: rgb(189, 189, 189);
+
+  margin-right: 5px;
+  margin-top: 5px;
+
+}

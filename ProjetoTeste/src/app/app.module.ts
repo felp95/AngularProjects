@@ -11,6 +11,9 @@ import { TwitterComponent } from './twitter/twitter.component';
 import { NavbartwitterComponent } from './twitter/navbartwitter/navbartwitter.component';
 import { BannerComponent } from './twitter/banner/banner.component';
 import { BarraInferiorComponent } from './twitter/barra-inferior/barra-inferior.component';
+import { SidebarComponent } from './twitter/sidebar/sidebar.component';
+import { TimelineComponent } from './twitter/timeline/timeline.component';
+import { WidgetsComponent } from './twitter/widgets/widgets.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { BarraInferiorComponent } from './twitter/barra-inferior/barra-inferior.
     TwitterComponent,
     NavbartwitterComponent,
     BannerComponent,
-    BarraInferiorComponent
+    BarraInferiorComponent,
+    SidebarComponent,
+    TimelineComponent,
+    WidgetsComponent
   ],
   imports: [
     BrowserModule,
