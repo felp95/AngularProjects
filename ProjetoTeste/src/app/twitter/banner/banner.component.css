@@ -1,0 +1,26 @@
+.banner {
+  height: 380px;
+  width: 100%;
+
+  background-color: rgb(55, 191, 236);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner h1 {
+  color: rgb(241, 241, 241);
+  font-family: cursive;
+}
+
+.banner span {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.banner h3 {
+  margin: 15px 0;
+  color: rgb(241, 241, 241);
+}

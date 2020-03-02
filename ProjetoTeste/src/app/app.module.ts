@@ -9,6 +9,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FlexboxComponent } from './flexbox/flexbox.component';
 import { TwitterComponent } from './twitter/twitter.component';
 import { NavbartwitterComponent } from './twitter/navbartwitter/navbartwitter.component';
+import { BannerComponent } from './twitter/banner/banner.component';
+import { BarraInferiorComponent } from './twitter/barra-inferior/barra-inferior.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { NavbartwitterComponent } from './twitter/navbartwitter/navbartwitter.co
     HomeComponent,
     FlexboxComponent,
     TwitterComponent,
-    NavbartwitterComponent
+    NavbartwitterComponent,
+    BannerComponent,
+    BarraInferiorComponent
   ],
   imports: [
     BrowserModule,
