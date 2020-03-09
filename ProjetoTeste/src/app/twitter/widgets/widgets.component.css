@@ -1,5 +1,5 @@
-p {
+.widgets {
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+
+  height: 100%;
 }
