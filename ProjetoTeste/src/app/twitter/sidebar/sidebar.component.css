@@ -1,21 +1,3 @@
-.content {
-  max-width: 1170px;
-  margin: 0 auto;
-
-  padding: 0 30px;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-
-  height: 100%;
-}
-
-.wrapper-content {
-  display: flex;
-}
-
 .profile {
   width: 260px;
 }
@@ -90,7 +72,6 @@
 
   display: flex;
   flex-wrap: wrap;
-
 }
 
 .widget.followers ul li {
@@ -117,5 +98,4 @@
 
   margin-right: 5px;
   margin-top: 5px;
-
 }
