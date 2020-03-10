@@ -1,7 +1,106 @@
-.timeline {
+.content {
   display: flex;
 
   height: 100%;
 
+  width: 600px;
+
+  margin-top: 10px;
+
   background-color: white;
+}
+
+.timeline {
+  flex-grow: 1;
+}
+
+.timeline nav {
+  padding: 10px 15px;
+
+  height: 40px;
+
+  border-bottom: 1px solid #e6ecf0;
+}
+
+.timeline nav a {
+  text-decoration: none;
+
+  color: #3bb9e3;
+
+  font-size: 18px;
+  font-weight: bold;
+
+  margin-left: 20px;
+}
+
+.timeline nav a:first-child {
+  margin-left: 0;
+}
+
+.timeline nav .active {
+  color: #1f2226;
+}
+
+.tweets {
+  list-style: none;
+}
+
+.avatar {
+  height: 48px;
+  width: 48px;
+
+  background-color: rgb(55, 191, 236);
+
+  flex-shrink: 0;
+
+  border-radius: 50%;
+}
+
+.tweets li {
+  border-bottom: 1px solid #e6ecf0;
+  padding: 10px 15px;
+
+  display: flex;
+}
+
+.info {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.info strong {
+  font-size: 14px;
+  color: #1f2226;
+}
+
+.info span {
+  font-size: 13px;
+  color: #7b8b9a;
+  font-weight: normal;
+}
+
+.info p {
+  font-size: 14px;
+  color: #1f2326;
+  margin-top: 5px;
+}
+
+.icons {
+  display: flex;
+}
+
+.icons span {
+  margin-top: 23px;
+  margin-left: 5px;
+}
+
+.icons fa-icon {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.icons fa-icon:first-child {
+  margin-left: 0;
 }

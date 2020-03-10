@@ -1,5 +1,116 @@
 .widgets {
   display: flex;
 
-  height: 100%;
+  width: 290px;
+
+  margin-top: 10px;
+}
+
+.widget {
+  background: white;
+  padding: 15px;
+}
+
+.title {
+  display: flex;
+  align-items: baseline;
+}
+
+.title strong {
+  font-size: 18px;
+
+  color: #1f2226;
+}
+
+.title a {
+  color: #3bb9e3;
+  font-size: 12px;
+  text-decoration: none;
+  position: relative;
+  padding-left: 10px;
+}
+
+.title a::before {
+  content: "";
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background: black;
+  position: absolute;
+  left: 4px;
+  top: 6px;
+}
+
+.picture {
+  background-color: rgb(55, 191, 236);
+
+  height: 48px;
+  width: 48px;
+
+  color: #3bb9e3;
+
+  border-radius: 50%;
+
+  font-size: 12px;
+
+  text-decoration: none;
+}
+
+.follow ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.follow li {
+  display: flex;
+  border-bottom: 1px solid #ccd6dd;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.follow li:last-child {
+  margin-bottom: 0;
+  padding: 0;
+  border: 0;
+}
+
+.info {
+  margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info strong {
+  font-size: 14px;
+  color: #1f2226;
+  margin-left: 10px;
+}
+
+.info span {
+  font-weight: normal;
+  color: #9a9a9a;
+}
+
+.info button {
+  border: 1px solid rgb(55, 191, 236);
+  border-radius: 16px;
+
+  width: 80px;
+  height: 27px;
+
+  background-color: white;
+  color: rgb(55, 191, 236);
+
+  font-weight: bold;
+
+  margin-top: 5px;
+  margin-left: 10px;
+
+  outline: none;
+}
+
+.info button:hover {
+  background-color: #3bb9e3;
+  color: white;
 }
